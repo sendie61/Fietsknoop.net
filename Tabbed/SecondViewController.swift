@@ -18,7 +18,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
   
     @IBAction func addItem(_ sender: Any)
     {
-        if input.text != ""
+        if self.input.text != ""
         {
             list.append(input.text!)
             myTableView.reloadData()

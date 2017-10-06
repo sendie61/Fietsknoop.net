@@ -92,9 +92,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <state key="normal" title="+"/>
                                 <connections>
-                                    <action selector="add2:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="zXj-O6-p0E"/>
-                                    <action selector="add:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="TXu-U6-2ha"/>
-                                    <action selector="addButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="iGe-XT-4Rk"/>
                                     <action selector="addItem:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="5vh-Bt-wLg"/>
                                 </connections>
                             </button>
