@@ -20,13 +20,25 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         enterKnoopPunt()
     }
     
-    @IBAction func deleteRoute(_ sender: Any) {
-        list.removeAll()
-        myTableView.reloadData()
+    @IBAction func wisRouteAction(_ sender: Any) {
+        let alert = UIAlertController(title: "De route wordt gewist", message: "Weet u het zeker?", preferredStyle: .alert)
+        
+        let OkAction = UIAlertAction(title: "Ja", style: .default, handler: deleteRoute)
+        let cancelAction = UIAlertAction(title: "nee", style: .cancel, handler: nil)
+
+        alert.addAction(OkAction)
+        alert.addAction(cancelAction)
+        
+        present( alert, animated: true, completion: nil)
     }
     
     @IBAction func addItem(_ sender: Any){
         enterKnoopPunt()
+    }
+    
+    @IBAction func deleteRoute(_ sender: Any){
+        list.removeAll()
+        myTableView.reloadData()
     }
     
     private func enterKnoopPunt( ){

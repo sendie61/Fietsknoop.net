@@ -112,7 +112,7 @@
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="deleteRoute:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="9uC-4D-Plf"/>
+                                    <action selector="wisRouteAction:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="IWL-Vm-57r"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nieuw knooppunt:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EA5-wL-CFi">
